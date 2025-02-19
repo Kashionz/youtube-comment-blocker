@@ -1,8 +1,8 @@
-# YouTube 評論封鎖插件
+# YouTube 評論封鎖工具
 
 一個簡單的瀏覽器擴充功能，可以幫助你隱藏特定 YouTube 使用者的留言。
 
-例如很常在Youtube評論區出現的張雅婷(插件預設已封鎖)
+例如很常在Youtube評論區出現的張雅婷(工具預設已封鎖)
 
 ![image](https://github.com/Kashionz/youtube-comment-blocker/blob/main/getout.png)
 
