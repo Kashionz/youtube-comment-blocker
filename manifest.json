@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Comment Blocker",
+    "version": "1.0",
+    "description": "隱藏 YouTube 特定用戶的留言",
+    "permissions": ["storage"],
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .input-group {
+      margin-bottom: 10px;
+      display: flex;
+      gap: 5px;
+    }
+    input {
+      flex: 1;
+      padding: 5px;
+    }
+    button {
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    #blockList {
+      margin-top: 10px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    .blocked-user {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 5px;
+      border-bottom: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <div class="input-group">
+    <input type="text" id="userInput" placeholder="輸入要封鎖的用戶名稱 (@username)">
+    <button id="addUser">新增</button>
+  </div>
+  <div id="blockList"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
